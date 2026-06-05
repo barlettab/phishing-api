@@ -1,7 +1,7 @@
 import os
 import joblib
 import pandas as pd
-from modules.feature_extractor import extract_features
+from api.feature_extractor import extract_features
 
 # =========================
 # Carregando modelo
