@@ -1,9 +1,9 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from api.schemas import URLRequest
+from schemas import URLRequest
 
-from api.predictor import predict_url
+from predictor import predict_url
 
 app = FastAPI(
     title="Phishing Detection API"
